@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jackyi/projects/Cpp_notes/指针测试/main.cpp
+iostream
+-
+myFunc.h
+/Users/jackyi/projects/Cpp_notes/指针测试/myFunc.h
+
+/Users/jackyi/projects/Cpp_notes/指针测试/myFunc.h
+iostream
+-
+
